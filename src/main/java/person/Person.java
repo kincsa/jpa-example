@@ -1,11 +1,9 @@
 package person;
 
-import com.github.javafaker.Address;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -41,6 +39,5 @@ public class Person {
     private String email;
 
     private String profession;
-
 
 }
